@@ -1,63 +1,559 @@
 <!DOCTYPE html>
 <html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<head>
+<title>Scroll</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font.css">
+<link rel="stylesheet" type="text/css" href="assets/css/li-scroller.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
 
-.bgimg {
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: #b11616;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-  border-block-color: initial;
-  background-color: aqua;
-}
+</head>
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
-
-<div class="bgimg">
-  <div class="topleft">
-    <p></p>
-  </div>
-  <div class="middle">
-    <h1>WORK IN PROCESS</h1>
-    <hr>
-    <p>2 days left</p>
-  </div>
-  <div class="bottomleft">
-    <p></p>
-  </div>
+<body style="overflow: visible;">
+<div id="preloader" style="display: none;">
+  <div id="status" style="display: none;">&nbsp;</div>
 </div>
+<a class="scrollToTop" href="#" style="display: block;"><i class="fa fa-angle-up"></i></a>
+<div class="container">
+  <header id="header">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_top">
+		
+          <div class="header_top_left">
+            <ul class="top_nav">
+              <li><a href="https://scrollmedia.com.np/">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+			<button class="button"><a href="https://newskarkhana.com/register" target="_blank">REGISTER FIRST</a></button>
+			
+			<button class="button"><a href="https://kalampost.com" target="_blank">KALAMPOST</a></button>
+<!-----<button class="button button2">Blue</button>--->
+
+            </ul>
+          </div>
+		  
+		  
+		  
+           <div class="header_top_right">
+            <p><iframe src="https://free.timeanddate.com/clock/i83ob4om/n5309/fn7/fs16/fcfff/tct/pct/ftb/th2" frameborder="0" width="103" height="25" allowtransparency="true"></iframe>
+</p>
+          </div>
+		 
+		 <embed name="music" src= "music/music.mp3" loop="false" hidden="true" autostart="true">
+		 
+        </div>
+      </div>
+	  
+
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_bottom">
+          <div class="logo_area"><a href="https://scrollmedia.com.np/" class="logo"><img src="images/logo.png" alt=""></a></div>
+          <div class="add_banner"><a href="https://scrollmedia.com.np/"><img src="images/banner.png" alt=""></a></div>
+		  <div class="add_banner1"><a href="https://scrollmedia.com.np/"><img src="images/nepal flag.gif" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="navArea">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav main_nav">
+          <li class="active"><a href="https://scrollmedia.com.np/"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+          <!-----<li><a href="#">Technology</a></li>---->
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">OUT TEAM</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">NEWS ROOM</a></li>
+              <li><a href="#">MANAGMENT</a></li>
+              <li><a href="#">ADMIN</a></li>
+              <li><a href="#">MARKETING</a></li>
+              
+            </ul>
+          </li>
+          <!-----<li><a href="#">Laptops</a></li>
+          <li><a href="#">Tablets</a></li>----->
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">ABOUT US</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  
+  <section id="newsSection">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="latest_newsarea"> <!----<span>Latest News</span>---->
+          <div class="tickercontainer"><p class="blink">REGISTER NEWS KARKHANA AND GET 4 DAYS FREE SUBSCRIPTION </p></div>
+          <div class="social_area">
+            <ul class="social_nav">
+              <li class="facebook"><a href="https://www.facebook.com/Newskarkhana-116217967314669"></a></li>
+              <li class="twitter"><a href="#"></a></li>
+              <li class="flickr"><a href="#"></a></li>
+              <li class="pinterest"><a href="#"></a></li>
+              <li class="googleplus"><a href="#"></a></li>
+              <li class="vimeo"><a href="#"></a></li>
+              <li class="youtube"><a href="#"></a></li>
+              <li class="mail"><a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sliderSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+	  <div class="latest_post">
+          <div class="cat-title mb-3 mb-3">
+                            <span>SILVER PACKAGE
+	
+                            </span>
+                        </div>
+						
+	  <div style="overflow-x:auto;">
+	  
+        <table id="customers">
+  <tbody><tr>
+  
+    <th>MONTHS</th>
+   
+    <th>AMOUNT</th>
+	<th>13% VAT</th>
+	 <th>TOTAL AMOUNT</th>
+	  <th>PER MONTH</th>
+	  <th>SCREEN</th>
+  </tr>
+  <tr>
+    <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 1 </td>
+    <td>4513</td>
+	<td>586.69</td>
+    <td>5099.7</td>
+	<td>5099.7</td>
+<td>2</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 3 </td>
+    <td style="background-color:#f2f2f2;color:#000000;">12399</td>
+	<td style="background-color:#f2f2f2;color:#000000;">1611.87</td>
+    <td style="background-color:#f2f2f2;color:#000000;">14010.9</td>
+	<td style="background-color:#f2f2f2;color:#000000;">4670.3</td>
+	<td style="background-color:#f2f2f2;color:#000000;">2</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 6 </td>
+    <td style="background-color:#f2f2f2;color:#000000;">23893</td>
+	<td style="background-color:#f2f2f2;color:#000000;">3106.09</td>
+    <td style="background-color:#f2f2f2;color:#000000;">26999.1</td>
+	<td style="background-color:#f2f2f2;color:#000000;">4499.8</td>
+	<td style="background-color:#f2f2f2;color:#000000;">3</td>
+  </tr>
+     <tr>
+ <td class="blink1" style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 12 </td>
+     <td style="background-color:#f2f2f2;color:#000000;">44247</td>
+	<td style="background-color:#f2f2f2;color:#000000;">5752.11</td>
+    <td style="background-color:#f2f2f2;color:#000000;">49999.1</td>
+	<td style="background-color:#f2f2f2;color:#000000;">4166.6</td>
+	<td style="background-color:#f2f2f2;color:#000000;">4</td>
+  </tr>
+  
+</tbody></table>
+
+<section id="newsSection">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="latest_newsarea"> <!----<span>Latest News</span>---->
+          <div class="tickercontainer"><p class="blink2">Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+      </div>
+	  <div class="latest_post">
+          <div class="cat-title mb-3 mb-3">
+                            <span style="color:orange"><b>GOLDEN PACKAGE</b> 
+	
+                            </span>
+                        </div>
+						
+	  <div style="overflow-x:auto;">
+	  
+        <table id="customers">
+  <tbody><tr>
+  
+    <th>MONTHS</th>
+   
+    <th style="background-color:#3ba79e; color:#ffffff;">AMOUNT</th>
+	<th>13% VAT</th>
+	 <th>TOTAL AMOUNT</th>
+	  <th>PER MONTH</th>
+	  <th>SCREEN</th>
+  </tr>
+  <tr>
+    <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 1 </td>
+    <td style="background-color:#f2f2f2;color:#000000;">9026</td>
+	<td style="background-color:#f2f2f2;color:#000000;">1173.4</td>
+    <td style="background-color:#f2f2f2;color:#000000;">10199.4</td>
+	<td style="background-color:#f2f2f2;color:#000000;">10199.4</td>
+	<td style="background-color:#f2f2f2;color:#000000;">2</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 3 </td>
+    <td style="background-color:#f2f2f2;color:#000000;">25663</td>
+	<td style="background-color:#f2f2f2;color:#000000;">3336.19</td>
+    <td style="background-color:#f2f2f2;color:#000000;">28999.19</td>
+	<td style="background-color:#f2f2f2;color:#000000;">9666.4</td>
+	<td style="background-color:#f2f2f2;color:#000000;">2</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 6 </td>
+    
+	<td style="background-color:#f2f2f2;color:#000000;">48672</td>
+    <td style="background-color:#f2f2f2;color:#000000;">6327.36</td>
+	<td style="background-color:#f2f2f2;color:#000000;">54999.36</td>
+	<td style="background-color:#f2f2f2;color:#000000;">9166.6</td>
+	<td style="background-color:#f2f2f2;color:#000000;">3</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 12 </td>
+     <td style="background-color:#f2f2f2;color:#000000;">88672</td>
+	<td style="background-color:#f2f2f2;color:#000000;">11504.35</td>
+    <td style="background-color:#f2f2f2;color:#000000;">99999.35</td>
+	<td style="background-color:#f2f2f2;color:#000000;">8333.3</td>
+	<td style="background-color:#f2f2f2;color:#000000;">4</td>
+  </tr>
+  
+</tbody></table>
+<section id="newsSection">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="latest_newsarea"> <!----<span>Latest News</span>---->
+          <div class="tickercontainer"><p class="blink2">Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+      </div>
+	  <div class="latest_post">
+          <div class="cat-title mb-3 mb-3">
+                            <span>DIMOND PACKAGE
+	
+                            </span>
+                        </div>
+						
+	  <div style="overflow-x:auto;">
+	  
+        <table id="customers">
+  <tbody><tr>
+  
+    <th>MONTHS</th>
+   
+    <th>AMOUNT</th>
+	<th>13% VAT</th>
+	 <th>TOTAL AMOUNT</th>
+	  <th>PER MONTH</th>
+	  <th>SCREEN</th>
+  </tr>
+   <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 1 </td>
+    <td style="background-color:#f2f2f2;color:#000000;">14070</td>
+	<td style="background-color:#f2f2f2;color:#000000;">1829.1</td>
+    <td style="background-color:#f2f2f2;color:#000000;">15899.1</td>
+	<td style="background-color:#f2f2f2;color:#000000;">15899.1</td>
+	<td style="background-color:#f2f2f2;color:#000000;">2</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 3 </td>
+    <td style="background-color:#f2f2f2;color:#000000;">39823</td>
+	<td style="background-color:#f2f2f2;color:#000000;">5176.99</td>
+    <td style="background-color:#f2f2f2;color:#000000;">44999.99</td>
+	<td style="background-color:#f2f2f2;color:#000000;">15000</td>
+	<td style="background-color:#f2f2f2;color:#000000;">2</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 6 </td>
+    <td style="background-color:#f2f2f2;color:#000000;">76991</td>
+	<td style="background-color:#f2f2f2;color:#000000;">10008.83</td>
+    <td style="background-color:#f2f2f2;color:#000000;">86999.83</td>
+	<td style="background-color:#f2f2f2;color:#000000;">14500</td>
+	<td style="background-color:#f2f2f2;color:#000000;">3</td>
+  </tr>
+     <tr>
+ <td style="background-color:#3ba79e; color:#ffffff;"><a href="#"</a> 12 </td>
+     <td style="background-color:#f2f2f2;color:#000000;">146902</td>
+	<td style="background-color:#f2f2f2;color:#000000;">19097.26</td>
+    <td style="background-color:#f2f2f2;color:#000000;">165999.26</td>
+	<td style="background-color:#f2f2f2;color:#000000;">13833.3</td>
+	<td style="background-color:#f2f2f2;color:#000000;">4</td>
+  </tr>
+  
+</tbody></table>
+<section id="newsSection">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="latest_newsarea"> <!----<span>Latest News</span>---->
+          <div class="tickercontainer"><p class="blink2">Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</div>
+      </div>
+	  </div>
+	  
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="latest_post">
+          <div class="cat-title mb-3 mb-3">
+                            <span>
+                             NEPALI RASIFAL
+                            </span>
+                        </div>
+          <div class="latest_post_container">
+            <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+             <ul class="business_catgnav wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;">
+<iframe src="https://www.ashesh.com.np/rashifal/widget.php?header_title=Nepali Rashifal&amp;header_color=f0b03f&amp;api=6111z2l532" frameborder="0" scrolling="yes" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:365px; border-radius:5px;" allowtransparency="true">
+</iframe><br><span style="color:gray; font-size:8px; text-align:left"> <a href="https://www.ashesh.com.np/rashifal/" title="Nepali horoscope" target="_top" style="text-decoration:none; color:gray;"></a></span></ul>
+            <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contentSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+         <div class="latest_post">
+          <div class="cat-title mb-3 mb-3">
+                            <span>
+                             SCREEN
+                            </span>
+                        </div>
+	  <div style="overflow-x:auto;"><table id="customers">
+  <tbody><tr>
+    <th colspan="2">PACKAGES</th>
+   
+
+	<th>+1 SCREEN</th>
+	 <th>+2 SCREEN</th>
+	
+  </tr>
+  <tr>
+     <td style="background-color:#3ba79e; color:#ffffff;">SILVER</td>
+    <td><img src="images/silver-package.png" width="50" height="40"></td>
+ 
+	<td style="background-color:#f9f6ee;color:Black;">1000</td>
+    <td style="background-color:#f9f6ee;color:Black;">1500</td>
+	
+	
+  </tr>
+     <tr>
+    <td style="background-color:#3ba79e; color:#ffffff;">GOLDEN</td>
+     <td><img src="images/Gold-Package-1-1.png" width="50" height="50"></td>
+   
+	<td style="background-color:#f2f2f2;color:#000000;">1000</td>
+    <td style="background-color:#f2f2f2;color:#000000;">1500</td>
+	
+	
+  </tr>
+  <tr>
+     <td style="background-color:#3ba79e; color:#ffffff;">DIMOND</td>
+     <td><img src="images/diamond_250x250@2x.png" width="50" height="40"></td>
+
+	<td style="background-color:#f9f6ee;color:Black;">1000</td>
+    <td style="background-color:#f9f6ee;color:Black;">1500</td>
+  </tr>
+  
+</tbody></table>
+</div>
+
+     
+          <div class="fashion_technology_area">
+            <div class="fashion">
+              <div class="single_post_content">
+                <h3><span>DIMOND PACKAGE</span></h3>
+                <ul class="business_catgnav wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;">
+                  <li>
+                    <figure class="bsbig_fig"> <a href="#" class="featured_img"> <img alt="" src="images/featured_img1.jpg"> <span class="overlay"></span> </a>
+                      </figure>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div class="technology">
+              <div class="single_post_content">
+                <h1><span>GOLDEN PACKAGE</span></h1>
+                <ul class="business_catgnav">
+                  <li>
+                    <figure class="bsbig_fig wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;"> <a href="#" class="featured_img"> <img alt="" src="images/featured_img2.jpg"> <span class="overlay"></span> </a>
+                      </figure>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+          
+           <div class="fashion_technology_area">
+            <div class="fashion">
+              <div class="single_post_content">
+                <h2><span>SILVER PACKAGE</span></h2>
+                <ul class="business_catgnav wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;">
+                  <li>
+                    <figure class="bsbig_fig"> <a href="#" class="featured_img"> <img alt="" src="images/featured_img3.jpg"> <span class="overlay"></span> </a>
+                      </figure>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div class="technology">
+              <div class="single_post_content">
+                <h2><span>WEATHER UPDATE</span></h2>
+                <ul class="business_catgnav">
+                  <iframe src="https://www.ashesh.com.np/weather/widget.php?title=Nepal Weather Observation&amp;header_color=00a2e2&amp;api=6211z8l129" frameborder="0" scrolling="yes" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:383px; border-radius:5px;" allowtransparency="true">
+</iframe><span style="font-size:10px;color:gray;display:block"> <a href="http://www.ashesh.com.np/weather/" title="Weather observation" target="_top" style="text-decoration:none;font-size:10px;color:gray"></a></span>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <aside class="right_content">
+		
+          <div class="single_sidebar">
+            <div class="cat-title mb-3 mb-3">
+                            <span>
+                             EXCHANGE RATE
+                            </span>
+                        </div>
+            <ul class="spost_nav">
+              <iframe src="https://www.ashesh.com.np/forex/widget2.php?api=6111z4l542&amp;header_color=38b45e&amp;background_color=faf8ee&amp;header_title=Nepal%20Exchange%20Rates" frameborder="0" scrolling="yes" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:383px; border-radius:5px;" allowtransparency="true">
+</iframe><br><span style="text-align:left"><a href="https://www.ashesh.com.np/forex/" title="Foreign Exchange Rates for Nepalese Rupee" target="_top" style="text-decoration:none;"></a></span>
+            </ul>
+          </div>
+          <div class="single_sidebar">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#category" aria-controls="home" role="tab" data-toggle="tab">TWEETER</a></li>
+              <li role="presentation"><a href="#video" aria-controls="profile" role="tab" data-toggle="tab">YOUTUBE</a></li>
+              <li role="presentation"><a href="#comments" aria-controls="messages" role="tab" data-toggle="tab">FACEBOOK</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="category">
+                <!-----<ul>
+                  <li class="cat-item"><a href="#">Sports</a></li>
+                  <li class="cat-item"><a href="#">Fashion</a></li>
+                  <li class="cat-item"><a href="#">Business</a></li>
+                  <li class="cat-item"><a href="#">Technology</a></li>
+                  <li class="cat-item"><a href="#">Games</a></li>
+                  <li class="cat-item"><a href="#">Life &amp; Style</a></li>
+                  <li class="cat-item"><a href="#">Photography</a></li>
+                </ul>---->
+              </div>
+              <div role="tabpanel" class="tab-pane" id="video">
+                <div class="vide_area">
+                  <iframe width="100%" height="250" src="http://www.youtube.com/embed/h5QWbURNEpA?feature=player_detailpage" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="comments">
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;"> <a href="#" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;"> <a href="#" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;"> <a href="#" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;"> <a href="#" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="single_sidebar wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;">
+           <div class="cat-title mb-3 mb-3">
+                            <span>
+                             VIDEO SERVICE
+                            </span>
+                        </div>
+            <a class="sideAdd" href="#"><video width="375" controls="">
+  <source src="images/mov_bbb.mp4" type="video/mp4">
+  <source src="images/mov_bbb.ogg" type="video/ogg">
+  </a>
+</video>
+ 
+</div>
+
+          <div class="single_sidebar wow fadeInDown animated animated animated" style="visibility: visible; animation-name: fadeInDown;">
+           <div class="cat-title mb-3 mb-3">
+                            <span>
+                             PREETI TO UNICODE
+                            </span>
+                        </div>
+            <iframe src="https://www.ashesh.com.np/preeti-unicode/linkapi.php?api=6311z9l043" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:400px;" allowtransparency="true">
+</iframe><br><span style="color:gray; text-align:left"><a href="https://www.ashesh.com.np/preeti-unicode/" title="Preeti to Unicode" target="_top" style="text-decoration:none; color:gray;"></a></span>
+          </div>
+     
+        </aside>
+      </div>
+    </div>
+  </section>
+  <iframe src="https://coronanepal.live/embed/" style="min-height:320px;width:100%!important;overflow-y:hidden;margin-top:10px!important;"></iframe>
+  <footer id="footer">
+    
+    <div class="footer_bottom">
+      <p class="copyright">Copyright © 2021 <a href="index.html">Scroll Media</a></p>
+      <p class="developer">Developed By Rabin Kumar Acharya </p>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/slick.min.js"></script> 
+<script src="assets/js/jquery.li-scroller.1.0.js"></script> 
+<script src="assets/js/jquery.newsTicker.min.js"></script> 
+<script src="assets/js/jquery.fancybox.pack.js"></script> 
+<script src="assets/js/custom.js"></script>
+
+
 
 </body>
 </html>
