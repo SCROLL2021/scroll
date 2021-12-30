@@ -674,7 +674,7 @@ img:hover {
 .bsbig_fig > a img{width:100%}
 .bsbig_fig figcaption{color:#333; font-family:"Oswald",sans-serif; font-size:23px; font-weight:300; margin-top:10px; margin-bottom:10px}
 .single_post_content_right{float:right; display:inline; width:48%}
-.right_content{float:left;display:inline;width:100%;min-height:300px;margin-top: -316px;}
+.right_content{float:left;display:inline;width:100%;min-height:300px;margin-top: -616px;}
 .spost_nav{}
 .spost_nav li{float:left; display:block; width:100%; margin-bottom:10px}
 .spost_nav .media-left{width:100px; height:80px}
@@ -712,7 +712,7 @@ figure.effect-layla:hover figcaption::before, figure.effect-layla:hover figcapti
 figure.effect-layla:hover h2{padding-top:26%}
 figure.effect-layla:hover h2, figure.effect-layla:hover a{opacity:1; -webkit-transform:translate3d(0,-35px,0); transform:translate3d(0,-35px,0)}
 figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figure.effect-layla:hover a, figure.effect-layla:hover img{-webkit-transition-delay:0.15s; transition-delay:0.15s}
-.single_sidebar{float:left;display:inline;width:100%;margin-bottom: 31px;}
+.single_sidebar{float:left;display:inline;width:100%;margin-bottom: 40px;}
 .single_sidebar > h2{background:none repeat scroll 0 0 #151515; color:#fff; font-family:"Oswald",sans-serif; font-size:18px; font-weight:400; margin-bottom:10px; margin-left:0; margin-top:5px; padding:0; position:relative; text-align:center; text-transform:uppercase}
 .single_sidebar > h2 span{padding:4px 10px}
 .cat-item a{background:none repeat scroll 0 0 #e4e4e4; color:#888; display:block; float:left; border-bottom:none !important; font-size:13px; line-height:12px; margin:0 2px 2px 0; padding:12px 17px; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
@@ -874,8 +874,8 @@ td {
   .blink {
         animation: blinker 2s linear infinite;
         color: #ffffff;
-        font-size: 17px;
-        font-weight: bold;
+        font-size: 14px;
+        /* font-weight: bold; */
         font-family: sans-serif;
         margin-left: -53px;
         margin-top: 10px;
@@ -1018,10 +1018,10 @@ h3 {
     cursor: pointer;
 }
 .add_banner2 img {
-    width: 77%;
-    height: 135%;
-    margin-top: -11px;
-    margin-left: 172px;
+    width: 5%;
+    height: 40%;
+    margin-top: -51px;
+    margin-left: -246px;
 }
 .blink2 {
     animation: blinker 2s linear infinite;
@@ -1095,11 +1095,32 @@ h3 {
         opacity:1;
     }
 } 
+
+element.style {
+}
+.blink3 {
+    animation: blinker 2s linear infinite;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 353px;
+    margin-top: -5px;
+}
 .blink-image {
     -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
     -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
     -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
     animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+.add_banner2 {
+    float: left;
+    width: 83px;
+    height: 51px;
+    margin-left: -225px;
+    margin-top: 15px;
+    padding-left: -7px;
 }
 @media(max-width:1199px ){.logo_area{width:34%}.add_banner{width:580px}.nav-tabs > li{width:32.3%}.photograph_nav li{width:31.5%}
 @media(max-width:991px ){.add_banner{display:none}.logo_area{width:100%}.nav > li > a{padding:8px 8px}.latest_post_container{height:380px;overflow:hidden}#next-button{bottom:-2px}.single_iteam{height:415px}.photograph_nav li{width:47.7%}.related_post .spost_nav li{width:100%}.nav-tabs > li{width:31.9%}.nav-tabs > li > a{font-size:13px;padding-left:0 !important;padding-right:0 !important;text-align:center}}

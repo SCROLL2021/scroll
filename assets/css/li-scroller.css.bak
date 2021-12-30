@@ -19,5 +19,5 @@ ul.newsticker a > img{height:20px; margin-right:5px; width:25px}
     font-family: unset;
     font-size: large;
     margin-top: 0px;
-    padding-left: 645px;
+    padding-left: 317px;
 }

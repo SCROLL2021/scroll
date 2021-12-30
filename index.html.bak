@@ -63,7 +63,7 @@
           <div class="logo_area"><a href="https://scrollmedia.com.np/" class="logo"><img src="images/logo.png" alt=""></a></div>
           <div class="add_banner"><a href="https://scrollmedia.com.np/"><img src="images/banner.png" alt=""></a></div>
 		  <div class="add_banner1"><a href="https://scrollmedia.com.np/"><img src="images/nepal flag.gif" alt=""></a></div>
-        </div>
+		  <div class="add_banner1"><a href="https://scrollmedia.com.np/"><img src="images/topi.png" alt=""></a></div>
       </div>
     </div>
   </header>
@@ -89,6 +89,8 @@
           <li><a href="#">Tablets</a></li>----->
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">ABOUT US</a></li>
+		   <li><div class="tickercontainer3"><p class="blink">तमु ल्होसारको हार्दिक मंगलमय शुभकामना  ! </p></div></li>
+         
         </ul>
       </div>
     </nav>
@@ -178,7 +180,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12">
         <div class="latest_newsarea"> <!----<span>Latest News</span>---->
-          <div class="tickercontainer"><p class="blink2">Note : Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
+          <div class="tickercontainer"><p class="blink2">Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
           
         </div>
       </div>
@@ -245,7 +247,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12">
         <div class="latest_newsarea"> <!----<span>Latest News</span>---->
-          <div class="tickercontainer"><p class="blink2">Note : Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
+          <div class="tickercontainer"><p class="blink2">Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
           
         </div>
       </div>
@@ -312,7 +314,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12">
         <div class="latest_newsarea"> <!----<span>Latest News</span>---->
-          <div class="tickercontainer"><p class="blink2">Note : Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
+          <div class="tickercontainer"><p class="blink2">Please Subscribe 12 Months Package and Get 1 Month Free Subscription </p></div>
           
         </div>
       </div>
@@ -329,14 +331,23 @@
         <div class="latest_post">
           <div class="cat-title mb-3 mb-3">
                             <span>
-                             NEPALI RASIFAL
+                            NEPALI PATRO
                             </span>
                         </div>
           <div class="latest_post_container">
-            <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
-             <ul class="business_catgnav wow fadeInDown animated animated" style="visibility: hidden; animation-name: none;">
-<iframe src="https://www.ashesh.com.np/rashifal/widget.php?header_title=Nepali Rashifal&amp;header_color=f0b03f&amp;api=6111z2l532" frameborder="0" scrolling="yes" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:365px; border-radius:5px;" allowtransparency="true">
-</iframe><br><span style="color:gray; font-size:8px; text-align:left"> <a href="https://www.ashesh.com.np/rashifal/" title="Nepali horoscope" target="_top" style="text-decoration:none; color:gray;"></a></span></ul>
+            <div id="prev-button"></div>
+			           <!-- Start of nepali patro badge -->
+<script type="text/javascript"> <!--
+var nc_cb_width = 'responsive';
+var nc_cb_height = 220;
+var nc_cb_shadow = 'true';
+var nc_cb_api_id = 209202101230755; //-->
+</script>
+<script type="text/javascript" src="https://www.ashesh.com.np/nepali-calendar/widget/cb.js"></script>
+<!-- End of nepali patro badge -->
+		   
+		   
+			 </ul>
             <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
           </div>
         </div>
@@ -433,10 +444,12 @@
             </div>
             <div class="technology">
               <div class="single_post_content">
-                <h2><span>WEATHER UPDATE</span></h2>
+                <h2><span>EXCHANGE</span></h2>
                 <ul class="business_catgnav">
-                  <iframe src="https://www.ashesh.com.np/weather/widget.php?title=Nepal Weather Observation&amp;header_color=00a2e2&amp;api=6211z8l129" frameborder="0" scrolling="yes" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:383px; border-radius:5px;" allowtransparency="true">
-</iframe><span style="font-size:10px;color:gray;display:block"> <a href="http://www.ashesh.com.np/weather/" title="Weather observation" target="_top" style="text-decoration:none;font-size:10px;color:gray"></a></span>
+				   <iframe src="https://www.ashesh.com.np/forex/widget2.php?api=6111z4l542&amp;header_color=38b45e&amp;background_color=faf8ee&amp;header_title=Nepal%20Exchange%20Rates" frameborder="0" scrolling="yes" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:383px; border-radius:5px;" allowtransparency="true">
+</iframe><br><span style="text-align:left"><a href="https://www.ashesh.com.np/forex/" title="Foreign Exchange Rates for Nepalese Rupee" target="_top" style="text-decoration:none;"></a></span>
+            
+                  </span>
                 </ul>
                
               </div>
@@ -450,13 +463,24 @@
           <div class="single_sidebar">
             <div class="cat-title mb-3 mb-3">
                             <span>
-                             EXCHANGE RATE
+                             UPCOMING EVENTS
                             </span>
                         </div>
             <ul class="spost_nav">
-              <iframe src="https://www.ashesh.com.np/forex/widget2.php?api=6111z4l542&amp;header_color=38b45e&amp;background_color=faf8ee&amp;header_title=Nepal%20Exchange%20Rates" frameborder="0" scrolling="yes" marginwidth="0" marginheight="0" style="border:none; overflow:hidden; width:100%; height:383px; border-radius:5px;" allowtransparency="true">
-</iframe><br><span style="text-align:left"><a href="https://www.ashesh.com.np/forex/" title="Foreign Exchange Rates for Nepalese Rupee" target="_top" style="text-decoration:none;"></a></span>
-            </ul>
+
+		   
+             <!-- Start of upcoming event widget -->
+<script type="text/javascript"> <!--
+var nc_ev_width = 'responsive';
+var nc_ev_height = 303;
+var nc_ev_def_lan = 'np';
+var nc_ev_api_id = 838202101230314; //-->
+</script>
+<script type="text/javascript" src="https://www.ashesh.com.np/calendar-event/ev.js" scrolling="yes"></script><div id="ncwidgetlink"></div>
+<!-- End of upcoming event widget -->
+		   
+		   
+		   </ul>
           </div>
           <div class="single_sidebar">
             <ul class="nav nav-tabs" role="tablist">
