@@ -575,10 +575,10 @@ img:hover{opacity:0.75}
 .top_nav li a:hover{background-color:#d083cf}
 .header_top_right{float:left; display:inline; width:50%; text-align:right}
 .header_top_right > p{color:#fff;display:inline-block;float:right;font:bold 12px sans-serif;margin-bottom:0;padding-bottom:20px;padding-right: 41px;padding-top:20px;}
-.header_bottom{background-color: #c9e9bb;display:inline;float:left;padding:15px 30px 15px;width:100%;}
+.header_bottom{background-color: #c5e3b9;display:inline;float:left;padding:15px 30px 15px;width:100%;}
 .logo_area{display:inline;float:left;width: 25%;}
 .logo{font-size:45px; font-weight:bold; color:#000; font-family:'Varela',sans-serif}
-.logo img{max-width: 76%;margin-left: 36px;}
+.logo img{max-width: 87%;margin-left: 36px;}
 .logo img:hover{opacity:1}
 .logo > span{ margin-left:-14px}
 .add_banner{float:right; width:728px; height:90px}
@@ -1019,9 +1019,9 @@ h3 {
 }
 .add_banner2 img {
     width: 4%;
-    height: 31%;
-    margin-top: -43px;
-    margin-left: -240px;
+    height: 28%;
+    margin-top: -16px;
+    margin-left: -236px;
 }
 .blink2 {
     animation: blinker 2s linear infinite;
